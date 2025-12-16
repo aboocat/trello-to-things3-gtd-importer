@@ -64,3 +64,19 @@ property MAP_LISTS : {
     {trello:"Projects", things:"PROJECTS"},
     {trello:"Done", things:"LOGBOOK"}
 }
+
+### Supported targets
+INBOX
+AREA:
+PROJECTS
+SOMEDAY
+LOGBOOK
+IGNORE
+
+### Known limitations
+
+- Completed tasks are imported into the Logbook
+- Due dates are not imported by default
+- Import speed depends on Things’ AppleScript performance
+
+> Always test on a copy of your Trello board.
